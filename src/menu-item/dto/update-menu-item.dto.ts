@@ -1,4 +1,4 @@
-import { IsString, IsInt, IsOptional, IsUUID } from 'class-validator';
+import { IsString } from 'class-validator';
 
 export class UpdateMenuItemDto {
   @IsString()
