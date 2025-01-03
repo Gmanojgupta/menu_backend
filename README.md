@@ -30,6 +30,9 @@
 
 ```bash
 $ npm install
+$ npm run build
+$ npx prisma generate
+$ npx prisma migrate dev --name create_menu_item_table
 ```
 
 ## Compile and run the project
